@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enumeration name="VAV Mode" key="CE1">
+  <Fixed value="1" text="VAV" />
+  <Fixed value="2" text="VAVPH" />
+  <Fixed value="3" text="VAVRH" />
+  <Fixed value="4" text="VAVPHRH" />
+</Enumeration>

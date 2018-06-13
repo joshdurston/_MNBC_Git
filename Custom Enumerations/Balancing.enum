@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enumeration name="Balancing" key="1">
+  <Fixed value="1" text="Normal Operation" />
+  <Fixed value="2" text="GotoMinFlow" />
+  <Fixed value="3" text="GotoMinFlowHeat" />
+  <Fixed value="4" text="GotoMaxFlowCool" />
+  <Fixed value="5" text="GotoMaxFlowHeat" />
+  <Fixed value="6" text="Goto75%MaxFlow" />
+  <Fixed value="7" text="Goto80%MaxFlow" />
+  <Fixed value="8" text="Goto85%MaxFlow" />
+  <Fixed value="9" text="Goto90%MaxFlow" />
+  <Fixed value="10" text="Goto95%MaxFlow" />
+  <Fixed value="11" text="FullOpen" />
+  <Fixed value="12" text="FullClose" />
+  <Fixed value="13" text="DoDamperInit" />
+</Enumeration>
