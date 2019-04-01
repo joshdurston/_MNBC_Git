@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RemoteDeviceTemplate name="D100 FlowMeterDisplay">
+  <BacnetObjects>
+    <BacnetObject index="0">
+      <ObjectData>
+        <NetworkValue>
+          <General>
+            <Format>Distech.Gpl.Model.Shapes.Blocks.EngineeringUnitsFormat|87</Format>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111001</ResourceNumber>
+            <ObjectName>VolumeRate</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>AnalogInput,2</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <ReadMethod>Poll</ReadMethod>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description>Volume(or Mass)Rate</Description>
+            <ObjectDisplayName>VolumeRate</ObjectDisplayName>
+          </Configuration>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+    <BacnetObject index="1">
+      <ObjectData>
+        <NetworkValue>
+          <General>
+            <Format>Distech.Gpl.Model.Shapes.Blocks.EngineeringUnitsFormat|82</Format>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111002</ResourceNumber>
+            <ObjectName>Mode1VolumeTotal</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>AnalogValue,2</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <DataType>Real</DataType>
+            <ReadMethod>Poll</ReadMethod>
+            <MinSendTime>5</MinSendTime>
+            <CovIncrement>1</CovIncrement>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description>Mode1(or Mass)VolumeTotal</Description>
+            <ObjectDisplayName>Mode1VolumeTotal</ObjectDisplayName>
+          </Configuration>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+    <BacnetObject index="2">
+      <ObjectData>
+        <NetworkValue>
+          <General>
+            <Format>Distech.Gpl.Model.Shapes.Blocks.EngineeringUnitsFormat|82</Format>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111003</ResourceNumber>
+            <ObjectName>Mode2VolumeTotal</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>AnalogValue,4</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <DataType>Real</DataType>
+            <ReadMethod>Poll</ReadMethod>
+            <MinSendTime>5</MinSendTime>
+            <CovIncrement>1</CovIncrement>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description>Mode2(or Mass)VolumeTotal</Description>
+            <ObjectDisplayName>Mode2VolumeTotal</ObjectDisplayName>
+          </Configuration>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+    <BacnetObject index="3">
+      <ObjectData>
+        <NetworkValue>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111004</ResourceNumber>
+            <ObjectName>OperatingMode</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>AnalogValue,6</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <DataType>Real</DataType>
+            <ReadMethod>Poll</ReadMethod>
+            <MinSendTime>5</MinSendTime>
+            <CovIncrement>1</CovIncrement>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description></Description>
+            <ObjectDisplayName>OperatingMode</ObjectDisplayName>
+          </Configuration>
+          <General>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+    <BacnetObject index="4">
+      <ObjectData>
+        <NetworkValue>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111005</ResourceNumber>
+            <ObjectName>Mode1Mode2Indicator</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>AnalogValue,12</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <DataType>Real</DataType>
+            <ReadMethod>Poll</ReadMethod>
+            <MinSendTime>5</MinSendTime>
+            <CovIncrement>1</CovIncrement>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description></Description>
+            <ObjectDisplayName>Mode1Mode2Indicator</ObjectDisplayName>
+          </Configuration>
+          <General>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+    <BacnetObject index="5">
+      <ObjectData>
+        <NetworkValue>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111006</ResourceNumber>
+            <ObjectName>BACnetInstance</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>AnalogValue,13</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <DataType>Real</DataType>
+            <ReadMethod>Poll</ReadMethod>
+            <MinSendTime>5</MinSendTime>
+            <CovIncrement>1</CovIncrement>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description></Description>
+            <ObjectDisplayName>BACnetInstance</ObjectDisplayName>
+          </Configuration>
+          <General>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+    <BacnetObject index="6">
+      <ObjectData>
+        <NetworkValue>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111007</ResourceNumber>
+            <ObjectName>ZeroMode1VolumeTotal</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>BinaryValue,12</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <DataType>Enumerated</DataType>
+            <ReadMethod>Poll</ReadMethod>
+            <MinSendTime>5</MinSendTime>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description>ZeroMode1Volume(or Mass)Total</Description>
+            <ObjectDisplayName>ZeroMode1VolumeTotal</ObjectDisplayName>
+          </Configuration>
+          <General>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+    <BacnetObject index="7">
+      <ObjectData>
+        <NetworkValue>
+          <Configuration>
+            <ResourceType>NetworkValue</ResourceType>
+            <ResourceNumber>111008</ResourceNumber>
+            <ObjectName>ZeroMode2VolumeTotal</ObjectName>
+            <ServiceType>RemoteObject</ServiceType>
+            <Target>
+              <DeviceIdentifier>Device,11</DeviceIdentifier>
+              <ObjectIdentifier>BinaryValue,14</ObjectIdentifier>
+              <PropertyIdentifier>PresentValue</PropertyIdentifier>
+            </Target>
+            <DeviceDisplayName>D100 FlowMeterDisplay</DeviceDisplayName>
+            <DataType>Enumerated</DataType>
+            <ReadMethod>Poll</ReadMethod>
+            <MinSendTime>5</MinSendTime>
+            <UpdateInterval>60</UpdateInterval>
+            <DefaultValue>NaN</DefaultValue>
+            <Description>ZeroMode2Volume(or Mass)Total</Description>
+            <ObjectDisplayName>ZeroMode2VolumeTotal</ObjectDisplayName>
+          </Configuration>
+          <General>
+            <UseAnyDevices>False</UseAnyDevices>
+            <GenerateTrendLog>False</GenerateTrendLog>
+          </General>
+        </NetworkValue>
+      </ObjectData>
+    </BacnetObject>
+  </BacnetObjects>
+</RemoteDeviceTemplate>
