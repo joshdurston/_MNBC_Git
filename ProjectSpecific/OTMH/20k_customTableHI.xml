@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--   This file contains information about custom made thermistor types.-->
+<Thermistors>
+  <Thermistor name="20k_customTable">
+    <Entries degrees="C">
+      <Entry x="818" y="110.00" />
+      <Entry x="1,114" y="100.00" />
+      <Entry x="1,307.60" y="95.00" />
+      <Entry x="1,824.40" y="85.00" />
+      <Entry x="2,168.00" y="80.00" />
+      <Entry x="2,410.00" y="77.00" />
+      <Entry x="2,988.00" y="71.00" />
+      <Entry x="3,734.00" y="65.00" />
+      <Entry x="4,518.00" y="60.00" />
+      <Entry x="5,494.00" y="55.00" />
+      <Entry x="6,718.00" y="50.00" />
+      <Entry x="7,920.00" y="46.00" />
+      <Entry x="10,210.00" y="40.00" />
+      <Entry x="12,696.00" y="35.00" />
+      <Entry x="15,884.00" y="30.00" />
+      <Entry x="18,224.00" y="27.00" />
+      <Entry x="20,960.00" y="24.00" />
+      <Entry x="26,600.00" y="19.00" />
+      <Entry x="32,340.00" y="15.00" />
+      <Entry x="39,500.00" y="11.00" />
+      <Entry x="46,060.00" y="8.00" />
+      <Entry x="56,720.00" y="4.00" />
+      <Entry x="63,060.00" y="2.00" />
+      <Entry x="70,200.00" y="0.00" />
+      <Entry x="87,340.00" y="-4.00" />
+      <Entry x="115,600.00" y="-9.00" />
+      <Entry x="137,300.00" y="-12.00" />
+      <Entry x="173,540.00" y="-16.00" />
+      <Entry x="220,600.00" y="-20.00" />
+      <Entry x="265,400.00" y="-23.00" />
+      <Entry x="320,800.00" y="-26.00" />
+      <Entry x="342,000.00" y="-27.00" />
+    </Entries>
+  </Thermistor>
+</Thermistors>
